@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+
+
+    <link rel="stylesheet" href="basic.css">
+    <title>Contact - Koken met Sebas</title>
+</head>
+
+
+<body>
+
+
+    <div class="container">
+        <header class="header">Contact</header>
+
+        <nav class="bar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Overzicht.html">Overzicht Recepten</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+
+        </nav>
+
+
+
+        <article class="content">
+
+            <div>
+                <h1> We zijn ook super benieuwd naar jouw lekkere recepten, hieronder vindt je daar een formulier voor!
+                </h1>
+
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label>Naam: <input type="text" name="naam" /></label>
+                    </p>
+
+                    <p>
+                        <label>Telefoonnummer: <input type="tel" name="telnr" /></label>
+                    </p>
+
+                    <p>
+                        <label>Geboortedatum: <input type="date" name="birthday" /></label>
+
+                    </p>
+
+                    <p>
+                        <label>Soort gerecht: <input type="radio" name="soort_gerecht" value="voorgerecht"> Voorgerecht
+                            <input type="radio" name="soort_gerecht" value="hoofdgerecht"> Hoofdgerecht
+                            <input type="radio" name="soort_gerecht" value="nagerecht">Nagerecht</label>
+                        <input type="radio" name="soort_gerecht" value="overig">Overig</label>
+                    </p>
+
+                    <p>
+                        <label>Email: <input type="email" name="email" /></label>
+                    </p>
+
+                    <p>
+                        <label>Ingrediënten: <textarea name="message" rows="10"></textarea></label>
+                    </p>
+
+                    <p>
+                        <label>Instructies: <textarea name="message" rows="10"></textarea></label>
+                    </p>
+
+                    <p>
+                        <label>Foto van het gerecht: <input type="file" name="upload" /></label>
+                    </p>
+
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+
+                    <p>
+                        <button type="reset">Reset</button>
+                    </p>
+
+                </form>
+            </div>
+
+
+        </article>
+
+        <footer class="footer">Koken met Sebas 2021</footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
